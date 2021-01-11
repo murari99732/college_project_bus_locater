@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E20636D0-6B0D-469B-9B08-5EEA3656D7BD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusArriaval</RootNamespace>
+    <AssemblyName>BusArriaval</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\..\..\..\ZJOHN CHAMBERS\Src\web\Application\TRace 2014 5 30\TRace\bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddRoutes.aspx" />
+    <Content Include="AddStops.aspx" />
+    <Content Include="AdminHome.aspx" />
+    <Content Include="AllRoutes.aspx" />
+    <Content Include="AllStops.aspx" />
+    <Content Include="API.asmx" />
+    <Content Include="BusEnquiry.aspx" />
+    <Content Include="BreakDown.aspx" />
+    <Content Include="Buses.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="icons\bus-marker-icon.png" />
+    <Content Include="icons\icon1.png" />
+    <Content Include="icons\live_travel_information.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Menu.ascx" />
+    <Content Include="Register.aspx" />
+    <Content Include="resources\css\colors\blue-1.css" />
+    <Content Include="resources\css\colors\blue.css" />
+    <Content Include="resources\css\reset-1.css" />
+    <Content Include="resources\css\reset.css" />
+    <Content Include="resources\css\styleCopy.css" />
+    <Content Include="resources\css\style-1.css" />
+    <Content Include="resources\css\style.css" />
+    <Content Include="resources\css\style_fixed-1.css" />
+    <Content Include="resources\css\style_fixed.css" />
+    <Content Include="resources\css\style_fixed_full-1.css" />
+    <Content Include="resources\css\style_fixed_full.css" />
+    <Content Include="resources\css\style_full-1.css" />
+    <Content Include="resources\css\style_full.css" />
+    <Content Include="resources\images\background-1.png" />
+    <Content Include="resources\images\background.png" />
+    <Content Include="resources\images\button-1.png" />
+    <Content Include="resources\images\button.png" />
+    <Content Include="resources\images\button_browse-1.png" />
+    <Content Include="resources\images\button_browse.png" />
+    <Content Include="resources\images\button_browse_selected-1.png" />
+    <Content Include="resources\images\button_browse_selected.png" />
+    <Content Include="resources\images\button_selected-1.png" />
+    <Content Include="resources\images\button_selected.png" />
+    <Content Include="resources\images\calender_next-1.png" />
+    <Content Include="resources\images\calender_next.png" />
+    <Content Include="resources\images\calender_prev-1.png" />
+    <Content Include="resources\images\calender_prev.png" />
+    <Content Include="resources\images\colors\blue\button_highlight-1.png" />
+    <Content Include="resources\images\colors\blue\button_highlight.png" />
+    <Content Include="resources\images\colors\blue\button_highlight_selected-1.png" />
+    <Content Include="resources\images\colors\blue\button_highlight_selected.png" />
+    <Content Include="resources\images\colors\blue\button_home-1.png" />
+    <Content Include="resources\images\colors\blue\button_home.png" />
+    <Content Include="resources\images\colors\blue\header_inner-1.png" />
+    <Content Include="resources\images\colors\blue\header_inner.png" />
+    <Content Include="resources\images\colors\blue\header_inner_corners-1.png" />
+    <Content Include="resources\images\colors\blue\header_inner_corners.png" />
+    <Content Include="resources\images\colors\blue\login_corners-1.png" />
+    <Content Include="resources\images\colors\blue\login_corners.png" />
+    <Content Include="resources\images\colors\blue\menu_border-1.png" />
+    <Content Include="resources\images\colors\blue\menu_border.png" />
+    <Content Include="resources\images\colors\blue\menu_l_selected-1.png" />
+    <Content Include="resources\images\colors\blue\menu_l_selected.png" />
+    <Content Include="resources\images\colors\blue\menu_r_selected-1.png" />
+    <Content Include="resources\images\colors\blue\menu_r_selected.png" />
+    <Content Include="resources\images\colors\blue\menu_selected-1.png" />
+    <Content Include="resources\images\colors\blue\menu_selected.png" />
+    <Content Include="resources\images\colors\blue\quick_l-1.png" />
+    <Content Include="resources\images\colors\blue\quick_l.png" />
+    <Content Include="resources\images\colors\blue\quick_l_selected-1.png" />
+    <Content Include="resources\images\colors\blue\quick_l_selected.png" />
+    <Content Include="resources\images\colors\blue\quick_r-1.png" />
+    <Content Include="resources\images\colors\blue\quick_r.png" />
+    <Content Include="resources\images\colors\blue\quick_r_selected-1.png" />
+    <Content Include="resources\images\colors\blue\quick_r_selected.png" />
+    <Content Include="resources\images\colors\blue\title-1.png" />
+    <Content Include="resources\images\colors\blue\title.png" />
+    <Content Include="resources\images\colors\blue\title_link-1.png" />
+    <Content Include="resources\images\colors\blue\title_link.png" />
+    <Content Include="resources\images\colors\blue\title_tab_selected-1.png" />
+    <Content Include="resources\images\colors\blue\title_tab_selected.png" />
+    <Content Include="resources\images\content-1.png" />
+    <Content Include="resources\images\content.png" />
+    <Content Include="resources\images\content_fixed-1.png" />
+    <Content Include="resources\images\content_fixed.png" />
+    <Content Include="resources\images\header_background-1.png" />
+    <Content Include="resources\images\header_background.png" />
+    <Content Include="resources\images\icons\application_double-1.png" />
+    <Content Include="resources\images\icons\application_double.png" />
+    <Content Include="resources\images\icons\calendar-1.png" />
+    <Content Include="resources\images\icons\calendar.png" />
+    <Content Include="resources\images\icons\cog-1.png" />
+    <Content Include="resources\images\icons\cog.png" />
+    <Content Include="resources\images\icons\cross-1.png" />
+    <Content Include="resources\images\icons\cross.png" />
+    <Content Include="resources\images\icons\error-1.png" />
+    <Content Include="resources\images\icons\error.png" />
+    <Content Include="resources\images\icons\notice-1.png" />
+    <Content Include="resources\images\icons\notice.png" />
+    <Content Include="resources\images\icons\page_white_copy-1.png" />
+    <Content Include="resources\images\icons\page_white_copy.png" />
+    <Content Include="resources\images\icons\success-1.png" />
+    <Content Include="resources\images\icons\success.png" />
+    <Content Include="resources\images\icons\warning-1.png" />
+    <Content Include="resources\images\icons\warning.png" />
+    <Content Include="resources\images\icons\world_link-1.png" />
+    <Content Include="resources\images\icons\world_link.png" />
+    <Content Include="resources\images\login-1.png" />
+    <Content Include="resources\images\login.png" />
+    <Content Include="resources\images\logo-1.png" />
+    <Content Include="resources\images\logo.png" />
+    <Content Include="resources\images\menu-1.png" />
+    <Content Include="resources\images\menu.png" />
+    <Content Include="resources\images\menu_arrow-1.png" />
+    <Content Include="resources\images\menu_arrow.png" />
+    <Content Include="resources\images\menu_l-1.png" />
+    <Content Include="resources\images\menu_l.png" />
+    <Content Include="resources\images\menu_minus-1.png" />
+    <Content Include="resources\images\menu_minus.png" />
+    <Content Include="resources\images\menu_plus-1.png" />
+    <Content Include="resources\images\menu_plus.png" />
+    <Content Include="resources\images\menu_r-1.png" />
+    <Content Include="resources\images\menu_r.png" />
+    <Content Include="resources\images\minus-1.png" />
+    <Content Include="resources\images\minus.png" />
+    <Content Include="resources\images\misc\ginger-1.jpg" />
+    <Content Include="resources\images\misc\ginger.jpg" />
+    <Content Include="resources\images\pager-1.png" />
+    <Content Include="resources\images\pager.png" />
+    <Content Include="resources\images\pager_selected-1.png" />
+    <Content Include="resources\images\pager_selected.png" />
+    <Content Include="resources\images\plus-1.png" />
+    <Content Include="resources\images\plus.png" />
+    <Content Include="resources\images\ui\ui-bg_diagonals-thick_20_666666_40x40-1.png" />
+    <Content Include="resources\images\ui\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="resources\images\ui\ui-bg_flat_10_000000_40x100-1.png" />
+    <Content Include="resources\images\ui\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="resources\images\ui\ui-icons_222222_256x240-1.png" />
+    <Content Include="resources\images\ui\ui-icons_222222_256x240.png" />
+    <Content Include="resources\images\ui\ui-icons_228ef1_256x240-1.png" />
+    <Content Include="resources\images\ui\ui-icons_228ef1_256x240.png" />
+    <Content Include="resources\images\ui\ui-icons_ef8c08_256x240-1.png" />
+    <Content Include="resources\images\ui\ui-icons_ef8c08_256x240.png" />
+    <Content Include="resources\images\ui\ui-icons_ffd27a_256x240-1.png" />
+    <Content Include="resources\images\ui\ui-icons_ffd27a_256x240.png" />
+    <None Include="Properties\PublishProfiles\pis.pubxml" />
+    <None Include="resources\jq\jquery-1.8.2.intellisense.js" />
+    <Content Include="resources\jq\jquery-1.8.2.js" />
+    <Content Include="resources\jq\jquery-1.8.2.min.js" />
+    <Content Include="resources\jq\jquery-ui-1.8.24.js" />
+    <Content Include="resources\jq\jquery-ui-1.8.24.min.js" />
+    <Content Include="resources\scripts\jquery-1.6.4.min-1.js" />
+    <Content Include="resources\scripts\jquery-1.6.4.min.js" />
+    <Content Include="resources\scripts\jquery-ui-1.8.16.custom.min-1.js" />
+    <Content Include="resources\scripts\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="resources\scripts\jquery.flot.min-1.js" />
+    <Content Include="resources\scripts\jquery.flot.min.js" />
+    <Content Include="resources\scripts\jquery.ui.selectmenu-1.js" />
+    <Content Include="resources\scripts\jquery.ui.selectmenu.js" />
+    <Content Include="resources\scripts\smooth-1.js" />
+    <Content Include="resources\scripts\smooth.autocomplete-1.js" />
+    <Content Include="resources\scripts\smooth.autocomplete.js" />
+    <Content Include="resources\scripts\smooth.chart-1.js" />
+    <Content Include="resources\scripts\smooth.chart.js" />
+    <Content Include="resources\scripts\smooth.dialog-1.js" />
+    <Content Include="resources\scripts\smooth.dialog.js" />
+    <Content Include="resources\scripts\smooth.form-1.js" />
+    <Content Include="resources\scripts\smooth.form.js" />
+    <Content Include="resources\scripts\smooth.js" />
+    <Content Include="resources\scripts\smooth.menu-1.js" />
+    <Content Include="resources\scripts\smooth.menu.js" />
+    <Content Include="resources\scripts\smooth.table-1.js" />
+    <Content Include="resources\scripts\smooth.table.js" />
+    <Content Include="resources\scripts\tiny_mce\jquery.tinymce-1.js" />
+    <Content Include="resources\scripts\tiny_mce\jquery.tinymce.js" />
+    <Content Include="resources\scripts\tiny_mce\tiny_mce-1.js" />
+    <Content Include="resources\scripts\tiny_mce\tiny_mce.js" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="TrackBus.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddRoutes.aspx.cs">
+      <DependentUpon>AddRoutes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRoutes.aspx.designer.cs">
+      <DependentUpon>AddRoutes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStops.aspx.cs">
+      <DependentUpon>AddStops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStops.aspx.designer.cs">
+      <DependentUpon>AddStops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllRoutes.aspx.cs">
+      <DependentUpon>AllRoutes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllRoutes.aspx.designer.cs">
+      <DependentUpon>AllRoutes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllStops.aspx.cs">
+      <DependentUpon>AllStops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllStops.aspx.designer.cs">
+      <DependentUpon>AllStops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="API.asmx.cs">
+      <DependentUpon>API.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BusEnquiry.aspx.cs">
+      <DependentUpon>BusEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusEnquiry.aspx.designer.cs">
+      <DependentUpon>BusEnquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BreakDown.aspx.cs">
+      <DependentUpon>BreakDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BreakDown.aspx.designer.cs">
+      <DependentUpon>BreakDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buses.aspx.cs">
+      <DependentUpon>Buses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buses.aspx.designer.cs">
+      <DependentUpon>Buses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GCM.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrackBus.aspx.cs">
+      <DependentUpon>TrackBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrackBus.aspx.designer.cs">
+      <DependentUpon>TrackBus.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\pub.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3175</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3175/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

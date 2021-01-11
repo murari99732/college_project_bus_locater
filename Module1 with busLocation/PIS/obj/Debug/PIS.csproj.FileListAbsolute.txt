@@ -1,0 +1,32 @@
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\obj\Debug\PIS.csprojResolveAssemblyReference.cache
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\obj\Debug\BusArriaval.dll
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\bin\BusArriaval.dll.config
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\bin\BusArriaval.dll
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\bin\BusArriaval.pdb
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\obj\Debug\BusArriaval.pdb
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\bin\Telerik.Web.UI.dll
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\PIS\bin\Newtonsoft.Json.dll
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\src\PIS\bin\BusArriaval.dll.config
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\src\PIS\bin\BusArriaval.dll
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\src\PIS\bin\BusArriaval.pdb
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\src\PIS\obj\Debug\PIS.csprojResolveAssemblyReference.cache
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\src\PIS\obj\Debug\BusArriaval.dll
+D:\atul i back\OPULENT\projects\Dotnet\2015-16\pmpml bus services\src\PIS\obj\Debug\BusArriaval.pdb
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\src\PIS\bin\BusArriaval.dll.config
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\src\PIS\bin\BusArriaval.dll
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\src\PIS\bin\BusArriaval.pdb
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\src\PIS\obj\Debug\PIS.csprojResolveAssemblyReference.cache
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\src\PIS\obj\Debug\BusArriaval.dll
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\src\PIS\obj\Debug\BusArriaval.pdb
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\Module1 with busLocation\PIS\bin\BusArriaval.dll.config
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\Module1 with busLocation\PIS\bin\BusArriaval.dll
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\Module1 with busLocation\PIS\bin\BusArriaval.pdb
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\Module1 with busLocation\PIS\obj\Debug\PIS.csprojResolveAssemblyReference.cache
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\Module1 with busLocation\PIS\obj\Debug\BusArriaval.dll
+D:\Opulent Academy\Codes\Dotnet\Bus Arrival\Module1 with busLocation\PIS\obj\Debug\BusArriaval.pdb
+D:\Project code\Module1 with busLocation\PIS\bin\BusArriaval.dll.config
+D:\Project code\Module1 with busLocation\PIS\bin\BusArriaval.dll
+D:\Project code\Module1 with busLocation\PIS\bin\BusArriaval.pdb
+D:\Project code\Module1 with busLocation\PIS\obj\Debug\PIS.csprojResolveAssemblyReference.cache
+D:\Project code\Module1 with busLocation\PIS\obj\Debug\BusArriaval.dll
+D:\Project code\Module1 with busLocation\PIS\obj\Debug\BusArriaval.pdb
